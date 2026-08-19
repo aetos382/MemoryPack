@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net6VsNet7", "sandbox\Net6V
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryPack.UnityShims", "src\MemoryPack.UnityShims\MemoryPack.UnityShims.csproj", "{9339C66C-25E5-4130-A213-9BA1804AD562}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceGenerator", "sandbox\SourceGenerator\SourceGenerator.csproj", "{5D7E29A1-0D65-4844-8A37-990E15B18423}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +130,12 @@ Global
 		{9339C66C-25E5-4130-A213-9BA1804AD562}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9339C66C-25E5-4130-A213-9BA1804AD562}.WinBenchmark|Any CPU.ActiveCfg = Debug|Any CPU
 		{9339C66C-25E5-4130-A213-9BA1804AD562}.WinBenchmark|Any CPU.Build.0 = Debug|Any CPU
+		{5D7E29A1-0D65-4844-8A37-990E15B18423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7E29A1-0D65-4844-8A37-990E15B18423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7E29A1-0D65-4844-8A37-990E15B18423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7E29A1-0D65-4844-8A37-990E15B18423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7E29A1-0D65-4844-8A37-990E15B18423}.WinBenchmark|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7E29A1-0D65-4844-8A37-990E15B18423}.WinBenchmark|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +155,7 @@ Global
 		{6E18AECF-34B2-48F9-9694-54150FB156EB} = {796FB992-A35C-405B-82A7-4C90C5673174}
 		{5612B811-586A-4EB3-9AE7-60CAD4969A1B} = {796FB992-A35C-405B-82A7-4C90C5673174}
 		{9339C66C-25E5-4130-A213-9BA1804AD562} = {81B295E0-EEDE-4D5B-B4AC-1202D5E6B3CF}
+		{5D7E29A1-0D65-4844-8A37-990E15B18423} = {796FB992-A35C-405B-82A7-4C90C5673174}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01ADF7A3-0758-4A3C-9A18-AEF0F30B6E1B}
